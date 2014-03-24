@@ -1,0 +1,14 @@
+#include <ez8.h> 
+void main(void)
+
+{
+	//variable declarations first
+		unsigned int delay;
+		unsigned char count=0;
+	//initialize PORT E
+
+		while(1){
+					PEOUT = count;
+					count++;
+				} //End While
+}//End Main
